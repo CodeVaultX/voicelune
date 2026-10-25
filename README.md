@@ -4,6 +4,15 @@ Reads your books aloud on Android and Windows, and can translate them as it read
 
 [Türkçe](#türkçe) · [Privacy policy](privacy.md)
 
+<p align="center">
+  <img src="screenshots/library.jpg" width="19%" alt="Library">
+  <img src="screenshots/reader.jpg" width="19%" alt="Reading aloud">
+  <img src="screenshots/settings.jpg" width="19%" alt="Voice and translation settings">
+  <img src="screenshots/themes.jpg" width="19%" alt="Another theme">
+  <img src="screenshots/about.jpg" width="19%" alt="About">
+</p>
+<p align="center"><sub>Library · Reading aloud · Voices and translation · Themes · About</sub></p>
+
 ## Download
 
 - **Windows:** [Releases](../../releases/latest). Download `Voicelune-Windows.zip`, extract it anywhere and run `Voicelune.exe`.
@@ -33,6 +42,8 @@ This repository holds the downloads and documentation only; the source code is n
 Kitaplarınızı Android ve Windows'ta sesli okur, isterseniz okurken çevirir.
 
 [Gizlilik politikası](privacy.md#türkçe)
+
+<sub>Ekran görüntüleri (yukarıda): Kitaplık · Sesli okuma · Sesler ve çeviri · Temalar · Hakkında</sub>
 
 ### İndir
 

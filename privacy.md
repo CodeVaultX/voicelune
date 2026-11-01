@@ -1,10 +1,10 @@
 # Voicelune — Privacy Policy
 
-*Last updated: November 1, 2026*
+*Last updated: November 2, 2026*
 
 [Türkçe](#türkçe)
 
-Voicelune reads your books aloud on Android and Windows and can translate them as it reads. Your books stay on your device unless you turn on sync or use an online service. On Windows the voice selected at first is an online one; see below.
+Voicelune reads your books aloud on Android and Windows and can translate them as it reads. Your books stay on your device unless you turn on sync or pick an online service yourself.
 
 ## On your device
 
@@ -26,7 +26,7 @@ Some features send **the text being read or translated** to a service:
 Starting choices:
 
 - **Android:** the device's own voice and Google ML Kit translation, which runs on the device after a one-time language model download.
-- **Windows:** the **Google voice** is selected at first, so the text being read goes to Google until you pick another voice in Settings. Translation uses **Google Translate**, and the app asks before it translates a book.
+- **Windows:** the Windows voices, which work offline. Installs made before version 1.0.3 keep the voice they had, which may be the **Google voice**; you can see and change it in Settings. Translation uses **Google Translate**, and the app asks before it translates a book.
 
 Books open in their own language. The book's language is worked out on your device; if it can't tell, the app asks you.
 
@@ -57,9 +57,9 @@ voicelune.app@gmail.com
 
 ## Türkçe
 
-*Son güncelleme: 1 Kasım 2026*
+*Son güncelleme: 2 Kasım 2026*
 
-Voicelune, Android ve Windows'ta kitaplarınızı sesli okur, isterseniz okurken çevirir. Senkronu açmadıkça ya da bir çevrim içi servis kullanmadıkça kitaplarınız cihazınızda kalır. Windows'ta başlangıçta seçili ses çevrim içidir; aşağıya bakın.
+Voicelune, Android ve Windows'ta kitaplarınızı sesli okur, isterseniz okurken çevirir. Senkronu açmadıkça ya da bir çevrim içi servisi kendiniz seçmedikçe kitaplarınız cihazınızda kalır.
 
 ### Cihazınızda
 
@@ -81,7 +81,7 @@ Bazı özellikler **okunan ya da çevrilen metni** bir servise gönderir:
 Başlangıç seçimleri:
 
 - **Android:** cihazın kendi sesi ve dil modeli bir kez indirildikten sonra cihazda çalışan Google ML Kit çevirisi.
-- **Windows:** başlangıçta **Google sesi** seçilidir; Ayarlar'dan başka bir ses seçene kadar okunan metin Google'a gider. Çeviri **Google Çeviri** ile yapılır ve uygulama bir kitabı çevirmeden önce sorar.
+- **Windows:** internetsiz çalışan Windows sesleri. 1.0.3 sürümünden önce yapılan kurulumlar mevcut seslerini korur, bu **Google sesi** olabilir; Ayarlar'dan görüp değiştirebilirsiniz. Çeviri **Google Çeviri** ile yapılır ve uygulama bir kitabı çevirmeden önce sorar.
 
 Kitaplar kendi dilinde açılır. Kitabın dili cihazınızda belirlenir; belirlenemezse uygulama size sorar.
 

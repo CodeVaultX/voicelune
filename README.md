@@ -26,7 +26,7 @@ Reads your books aloud on Android and Windows, and can translate them as it read
 - On Windows, natural AI voices that work offline: download them in Settings, or add more from [Piper's voices page](https://huggingface.co/rhasspy/piper-voices). Word highlighting and pitch work only with device voices.
 - Translates while it reads, if you want: on-device on Android, with Google, or with DeepL or an AI provider using your own key. Books open in their own language; the app asks before translating.
 - Speed, pitch, sleep timer, bookmarks, and controls from the notification, lock screen or headphones.
-- Saves chapters as audio files (WAV, M4A, MP3). Premium on Android, free on Windows. Natural voices aren't used for this yet.
+- Saves chapters as audio files (WAV, M4A, MP3). Premium on Android, free on Windows, where you can also save with natural voices.
 - Syncs books, positions, bookmarks and translations through the app's private Google Drive area.
 - Dark themes in several accent colours, English and Turkish.
 
@@ -61,7 +61,7 @@ Kitaplarınızı Android ve Windows'ta sesli okur, isterseniz okurken çevirir.
 - Windows'ta internetsiz çalışan doğal yapay zekâ sesleri: Ayarlar'dan indirin ya da [Piper ses sayfasından](https://huggingface.co/rhasspy/piper-voices) başka sesler ekleyin. Kelime işaretleme ve ton ayarı yalnızca cihaz seslerinde çalışır.
 - İsterseniz okurken çeviri: Android'de cihazda, Google ile ya da kendi anahtarınızla DeepL veya bir AI sağlayıcısı. Kitaplar kendi dilinde açılır; uygulama çevirmeden önce sorar.
 - Hız, ton, uyku zamanlayıcısı, yer imleri; bildirimden, kilit ekranından ve kulaklıktan kontrol.
-- Bölümleri ses dosyası olarak kaydeder (WAV, M4A, MP3). Android'de Premium, Windows'ta ücretsiz. Doğal sesler bunda henüz kullanılmıyor.
+- Bölümleri ses dosyası olarak kaydeder (WAV, M4A, MP3). Android'de Premium, Windows'ta ücretsiz; Windows'ta doğal seslerle de kaydedebilirsiniz.
 - Kitapları, kaldığınız yerleri, yer imlerini ve çevirileri Google Drive'daki uygulamaya özel gizli alan üzerinden senkronlar.
 - Farklı vurgu renklerinde koyu temalar, Türkçe ve İngilizce.
 

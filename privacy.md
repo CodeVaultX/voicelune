@@ -1,10 +1,10 @@
 # Voicelune — Privacy Policy
 
-*Last updated: October 25, 2026*
+*Last updated: November 1, 2026*
 
 [Türkçe](#türkçe)
 
-Voicelune reads your books aloud on Android and Windows and can translate them as it reads. Your books stay on your device unless you turn on sync or an online service yourself.
+Voicelune reads your books aloud on Android and Windows and can translate them as it reads. Your books stay on your device unless you turn on sync or use an online service. On Windows the voice selected at first is an online one; see below.
 
 ## On your device
 
@@ -17,13 +17,22 @@ If you sign in with Google, Voicelune copies your books, reading positions, book
 
 ## Online services you can choose
 
-Some features send **the text being read or translated** to a service. They are used only if you pick them:
+Some features send **the text being read or translated** to a service:
 
 - **Google Translate** translation or the **Google voice**: text goes to Google.
 - **AI translation / "Ask AI"** with your own key (NVIDIA, OpenRouter, Groq, OpenAI or another provider you add): text goes to that provider under its own terms.
 - **DeepL** with your own key: text goes to DeepL.
 
-The default choices work offline: the device's own voice, and on Android Google ML Kit translation, which runs on the device after a one-time language model download.
+Starting choices:
+
+- **Android:** the device's own voice and Google ML Kit translation, which runs on the device after a one-time language model download.
+- **Windows:** the **Google voice** is selected at first, so the text being read goes to Google until you pick another voice in Settings. Translation uses **Google Translate**, and the app asks before it translates a book.
+
+Books open in their own language. The book's language is worked out on your device; if it can't tell, the app asks you.
+
+## Natural voices (Windows, optional)
+
+If you download a natural voice, Voicelune fetches the Piper program from GitHub and the voice from Hugging Face. Those sites see a normal download request, including your IP address, under their own terms. After that, natural voices run on your device and your text isn't sent anywhere.
 
 ## Ads and purchases (Android)
 
@@ -48,9 +57,9 @@ voicelune.app@gmail.com
 
 ## Türkçe
 
-*Son güncelleme: 25 Ekim 2026*
+*Son güncelleme: 1 Kasım 2026*
 
-Voicelune, Android ve Windows'ta kitaplarınızı sesli okur, isterseniz okurken çevirir. Senkronu ya da bir çevrim içi servisi siz açmadıkça kitaplarınız cihazınızda kalır.
+Voicelune, Android ve Windows'ta kitaplarınızı sesli okur, isterseniz okurken çevirir. Senkronu açmadıkça ya da bir çevrim içi servis kullanmadıkça kitaplarınız cihazınızda kalır. Windows'ta başlangıçta seçili ses çevrim içidir; aşağıya bakın.
 
 ### Cihazınızda
 
@@ -63,13 +72,22 @@ Google ile giriş yaparsanız Voicelune kitaplarınızı, kaldığınız yerleri
 
 ### Seçebileceğiniz çevrim içi servisler
 
-Bazı özellikler **okunan ya da çevrilen metni** bir servise gönderir. Yalnızca siz seçerseniz kullanılırlar:
+Bazı özellikler **okunan ya da çevrilen metni** bir servise gönderir:
 
 - **Google Çeviri** ya da **Google sesi**: metin Google'a gider.
 - Kendi anahtarınızla **AI çeviri / "AI'ya sor"** (NVIDIA, OpenRouter, Groq, OpenAI ya da eklediğiniz başka bir sağlayıcı): metin o sağlayıcıya, onun koşullarıyla gider.
 - Kendi anahtarınızla **DeepL**: metin DeepL'e gider.
 
-Varsayılan seçimler internetsiz çalışır: cihazın kendi sesi ve Android'de, dil modeli bir kez indirildikten sonra cihazda çalışan Google ML Kit çevirisi.
+Başlangıç seçimleri:
+
+- **Android:** cihazın kendi sesi ve dil modeli bir kez indirildikten sonra cihazda çalışan Google ML Kit çevirisi.
+- **Windows:** başlangıçta **Google sesi** seçilidir; Ayarlar'dan başka bir ses seçene kadar okunan metin Google'a gider. Çeviri **Google Çeviri** ile yapılır ve uygulama bir kitabı çevirmeden önce sorar.
+
+Kitaplar kendi dilinde açılır. Kitabın dili cihazınızda belirlenir; belirlenemezse uygulama size sorar.
+
+### Doğal sesler (Windows, isteğe bağlı)
+
+Bir doğal ses indirirseniz Voicelune, Piper programını GitHub'dan, sesi Hugging Face'ten alır. Bu siteler IP adresiniz dahil normal bir indirme isteği görür ve kendi koşulları geçerlidir. Sonrasında doğal sesler cihazınızda çalışır, metniniz hiçbir yere gönderilmez.
 
 ### Reklam ve satın alma (Android)
 
